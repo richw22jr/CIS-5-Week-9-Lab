@@ -5,13 +5,15 @@
 // Homework continues this program. Do not start a second file.
 
 double average(const int a[], int n) {
-  n = 0;
+   //n = 0;
   int sum = 0;
+  
   if (n == 0)
     return 0;
+  
   for (int i = 0; i < n; ++i)
     sum += a[i];
-  return sum / n;
+    return sum / n;
 }
 void printsummary(double avg) {
   std::cout << "Average: " << avg << "\n";
